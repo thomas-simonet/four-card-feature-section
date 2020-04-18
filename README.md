@@ -6,7 +6,7 @@
 
 ## 1.1.0
 
-- Modifications des tags <svg> pour des <img>
+- Modifications des élements &lt;svg> pour des &lt;img>
 - Meilleures solutions pour la bordure top sur les blocs
 
 ## 1.0.0
