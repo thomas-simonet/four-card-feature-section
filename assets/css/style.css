@@ -59,15 +59,11 @@ main {
 
 .card {
   margin-bottom: 24px;
+  padding: 26px;
   background-color: #fff;
   -webkit-box-shadow: 0px 10px 10px 0px #d6d7e3;
           box-shadow: 0px 10px 10px 0px #d6d7e3;
   border-radius: 3px;
-}
-
-.card__wrapper {
-  border-radius: 3px;
-  padding: 26px;
 }
 
 .card__title {
@@ -83,24 +79,20 @@ main {
   text-align: right;
 }
 
-.card-supervisor .card__wrapper {
-  -webkit-box-shadow: inset 0px 200px 0px -196px #45d3d3;
-          box-shadow: inset 0px 200px 0px -196px #45d3d3;
+.card-supervisor {
+  border-top: 3px solid #45d3d3;
 }
 
-.card-team-builder .card__wrapper {
-  -webkit-box-shadow: inset 0px 200px 0px -196px #ea5353;
-          box-shadow: inset 0px 200px 0px -196px #ea5353;
+.card-team-builder {
+  border-top: 3px solid #ea5353;
 }
 
-.card-karma .card__wrapper {
-  -webkit-box-shadow: inset 0px 200px 0px -196px #fcaf4a;
-          box-shadow: inset 0px 200px 0px -196px #fcaf4a;
+.card-karma {
+  border-top: 3px solid #fcaf4a;
 }
 
-.card-calculator .card__wrapper {
-  -webkit-box-shadow: inset 0px 200px 0px -196px #549ef2;
-          box-shadow: inset 0px 200px 0px -196px #549ef2;
+.card-calculator {
+  border-top: 3px solid #549ef2;
 }
 
 @media screen and (min-width: 768px) {

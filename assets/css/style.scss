@@ -63,14 +63,11 @@ main {
 
 .card {
   margin-bottom: 24px;
+  padding: 26px;
+
   background-color: #fff;
   box-shadow: 0px 10px 10px 0px rgba(214,215,227,1);
   border-radius: 3px;
-
-  &__wrapper {
-    border-radius: 3px;
-    padding: 26px;
-  }
 
   &__title {
     font-size: 20px;
@@ -85,10 +82,10 @@ main {
     text-align: right;
   }
 
-  &-supervisor &__wrapper { box-shadow: inset 0px 200px 0px -196px $primary-cyan; }
-  &-team-builder &__wrapper { box-shadow: inset 0px 200px 0px -196px $primary-red; }
-  &-karma &__wrapper { box-shadow: inset 0px 200px 0px -196px $primary-orange; }
-  &-calculator &__wrapper { box-shadow: inset 0px 200px 0px -196px $primary-blue; }
+  &-supervisor { border-top: 3px solid $primary-cyan; }
+  &-team-builder { border-top: 3px solid $primary-red; }
+  &-karma { border-top: 3px solid $primary-orange; }
+  &-calculator { border-top: 3px solid $primary-blue; }
 }
 
 @media screen and (min-width: 768px) {
